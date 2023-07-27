@@ -36,7 +36,7 @@ ui <- fluidPage(
         #Adding in action buttons
       actionButton("reset_btn", "Reset"),
       actionButton("histogram_btn", "Histogram"),
-      actionButton("model_btn", "Add Linear Model"),
+      actionButton("model_btn", "Model Data"),
         # label Axis X and Y
       textInput("x_col", "Select X Column:", NULL),
       textInput("y_col", "Select Y Column:", NULL)
